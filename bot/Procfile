@@ -1,1 +1,1 @@
-worker : python bot/bot/KodexBot.py
+worker : python bot/KodexBot.py
