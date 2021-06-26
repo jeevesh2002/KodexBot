@@ -3,10 +3,10 @@ import os
 from discord import client
 from discord import channel
 from discord import message
-import json
-import requests
-from keep_alive import keep_alive
-COMMAND_PREFIX = "&"
+#import json
+#import requests
+#from keep_alive import keep_alive
+#COMMAND_PREFIX = "&"
 client = discord.Client()
 
 @client.event
