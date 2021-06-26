@@ -25,4 +25,4 @@ async def on_message(message):
             for i in range(n):
                 await message.channel.send(f"{msg.split()[2:]}")
             await message.channel.send(f"Succesfully spammed {n} times")
-client.run("ODU0MjExMzg3MTM1NzU0MzEw.YMgoWQ.tmTcFpwgygGsYv6AhLpW9GOH2Eo")
+client.run(os.environ("TOKEN")
