@@ -20,9 +20,9 @@ async def on_message(message):
     if msg.startswith("spam"):
         n = int(msg.split()[1])
         if n > 100:
-            await message.channel.send(f"Uh Uh max spam limit is capped at 100")
+            await message.channel.send('Uh Uh max spam limit is capped at 100')
         else:
-            for i in range(n):
+            for _ in range(n):
                 await message.channel.send(f"{msg.split()[2:]}")
             await message.channel.send(f"Succesfully spammed {n} times")
 client.run(os.environ.get("TOKEN"))
